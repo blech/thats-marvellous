@@ -1,0 +1,15 @@
+{
+	"manifest_version": 2,
+	"name": "That's Marvellous",
+	"version": "1.0",
+	"description": "Replaces the A word (aw*s*m*) with a much better synonym.",
+	"content_scripts": 
+	[
+		{
+			"matches": ["*://*/*"],
+			"js": ["content_script.js"],
+			"run_at": "document_end"
+		}
+	]
+}
+
